@@ -249,14 +249,16 @@ const Home = () => {
         <div className="font-mono flex items-center justify-center pt-16 ">
           <div className="skills-container max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 text-center border-2 border-gray-300 divide-x divide-y divide-dashed divide-gray-300">
             <div className="h-[297px] w-[400px] pt-5  flex justify-center">
-              <div>
-                <img
-                  src={amNationimg}
-                  alt=""
-                  className="h-[237px] w-[366px] rounded border-2 border-solid"
-                />
-                <p>AMNATION</p>
-              </div>
+              <a href="https://amnation-mellythegoats-projects.vercel.app/">
+                <div>
+                  <img
+                    src={amNationimg}
+                    alt=""
+                    className="h-[237px] w-[366px] rounded border-2 border-solid"
+                  />
+                  <p>AMNATION</p>
+                </div>
+              </a>
             </div>
             <div className="h-[297px] w-[400px]   pt-5  flex justify-center">
               <a href="">
