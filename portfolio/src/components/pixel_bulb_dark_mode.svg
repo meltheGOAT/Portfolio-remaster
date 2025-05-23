@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- No background - fully transparent -->
+  
+  <!-- Bulb Group -->
+  <g id="bulb">
+    <!-- Bulb Base -->
+    <rect x="28" y="48" width="8" height="4" fill="#9D9D9D"/>
+    <rect x="24" y="52" width="16" height="4" fill="#9D9D9D"/>
+    <rect x="24" y="56" width="16" height="4" fill="#9D9D9D"/>
+    
+    <!-- Bulb Glass -->
+    <rect x="20" y="44" width="24" height="4" fill="#555A66"/>
+    <rect x="16" y="40" width="32" height="4" fill="#555A66"/>
+    <rect x="16" y="36" width="32" height="4" fill="#555A66"/>
+    <rect x="16" y="32" width="32" height="4" fill="#555A66"/>
+    <rect x="16" y="28" width="32" height="4" fill="#555A66"/>
+    <rect x="16" y="24" width="32" height="4" fill="#555A66"/>
+    <rect x="20" y="20" width="24" height="4" fill="#555A66"/>
+    <rect x="20" y="16" width="24" height="4" fill="#555A66"/>
+    <rect x="24" y="12" width="16" height="4" fill="#555A66"/>
+    
+    <!-- Inner Light - dimmed -->
+    <rect x="24" y="24" width="4" height="4" fill="#6B7280"/>
+    <rect x="28" y="28" width="8" height="8" fill="#6B7280"/>
+    <rect x="36" y="28" width="4" height="4" fill="#6B7280"/>
+    
+    <!-- Highlights - reduced -->
+    <rect x="24" y="20" width="4" height="4" fill="#8D99AE" opacity="0.3"/>
+    <rect x="28" y="16" width="4" height="4" fill="#8D99AE" opacity="0.3"/>
+  </g>
+  
+  <!-- Rays of Light - dimmed/disabled for dark mode -->
+  <g id="rays" opacity="0.15">
+    <!-- Top Ray -->
+    <rect x="30" y="4" width="4" height="4" fill="#8D99AE"/>
+    <!-- Bottom Ray -->
+    <rect x="30" y="60" width="4" height="4" fill="#8D99AE"/>
+    <!-- Left Ray -->
+    <rect x="4" y="30" width="4" height="4" fill="#8D99AE"/>
+    <!-- Right Ray -->
+    <rect x="56" y="30" width="4" height="4" fill="#8D99AE"/>
+    <!-- Top Left Ray -->
+    <rect x="12" y="12" width="4" height="4" fill="#8D99AE"/>
+    <!-- Top Right Ray -->
+    <rect x="48" y="12" width="4" height="4" fill="#8D99AE"/>
+    <!-- Bottom Left Ray -->
+    <rect x="12" y="48" width="4" height="4" fill="#8D99AE"/>
+    <!-- Bottom Right Ray -->
+    <rect x="48" y="48" width="4" height="4" fill="#8D99AE"/>
+  </g>
+</svg>
