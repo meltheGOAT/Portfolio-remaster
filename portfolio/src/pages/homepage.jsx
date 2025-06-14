@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Amnation from "../components/amnationPro.jpg";
-import Amcastle from "../components/castiloPro.jpg";
+import Amcastle from "../components/castilopro.jpg";
 import Underconst from "../components/underconst.jpg";
 import {
   Menu,
